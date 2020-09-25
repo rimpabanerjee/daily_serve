@@ -13,6 +13,7 @@ body{
      display: flex;
      align-items: center;
      padding: 50px;
+     margin-top: auto;
 }
 nav{
     flex: 1;
@@ -21,22 +22,31 @@ nav{
 nav ul{
     display: inline-block;
     list-style: none;
+    margin-top: 10px;
 }
 nav ul li{
     display: inline-block;
     margin-right: 20px;
+    
 }
 a{
     text-decoration: none;
-    color: #000000;
+    color: #ffffff;
 }
-.active,nav ul li:hover
+
+a:hover{
+  text-decoration: underline;
+  color: #000;
+  transition: background 0.8s;
+}
+/* .active,nav ul li:hover
 {
 	background: #fffaf0;
-	border-radious: 3px;
-}
+  border-radius: 3px;
+} */
 p{
-    color: #555;
+    color: #fff;
+    font-size: normal;
 }
 .container{
     max-width: 1300px;
@@ -61,14 +71,24 @@ p{
 }
 .btn{
     display: inline-block;
-    background: #ff523b;
-    color:#fff;
+    background: #fff23b;
+    color:#000;
     padding: 8px 30px;
     margin: 30px 0;
     border-radius: 30px;
     transition: background 0.8s;
 
 }
+.btn:hover{
+  display: inline-block;
+    background: #ff0c0c;
+    color:#fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.8s;
+}
+
  {box-sizing: border-box}
 
 /* Full-width input fields */
@@ -137,12 +157,76 @@ button:hover {
     width: 100%;
   }
 }
-.btn:hover{
-    background: #563434;
-}
+
 .header{
-    background: #87CEFA;
+    background: #f7786b;
 }
 .header .row{
     margin-top: 90px;
+}
+.small-container {
+	max-width: 1080px;
+	margin: auto;
+	padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 50px;
+}
+
+.col-4 {
+	flex-basis: 25%;
+  padding: 10px;
+	min-width: 200px;
+	margin-bottom: 50px;
+	transition: transform 0.5s;
+}
+
+.col-4 img {
+	width: 100%;
+}
+.title {
+	text-align: center;
+	color: #555;
+	margin: 0 auto 80px;
+	position: relative;
+	line-break: 60px;
+}
+.title::after {
+	content: "";
+	background: #ff523b;
+	width: 120px;
+	height: 5px;
+	border-radius: 5px;
+	position: absolute;
+	margin-bottom: -4px;
+	bottom: 0;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+h4 {
+	color: #d41d1d;
+	font-weight: normal;
+}
+.col-4 p {
+	font-size: 14px;
+}
+.rating .fa {
+	color: #ff523b;
+}
+.col-4:hover {
+	transform: translateY(-10px);
+}
+
+/* --------offer---------------- */
+
+.offer {
+	background: radial-gradient(#7de1ff, #a2ff6c);
+	margin-top: 80px;
+	padding: 30px 0;
+}
+.col-2 .offer-img {
+	padding: 50px;
+}
+small {
+	color: #ddb9b9;
 }
