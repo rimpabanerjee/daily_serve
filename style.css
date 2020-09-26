@@ -14,6 +14,7 @@ body{
      align-items: center;
      padding: 50px;
      margin-top: auto;
+     color: #F7786B;
 }
 nav{
     flex: 1;
@@ -27,7 +28,7 @@ nav ul{
 nav ul li{
     display: inline-block;
     margin-right: 20px;
-    
+
 }
 a{
     text-decoration: none;
@@ -45,7 +46,7 @@ a:hover{
   border-radius: 3px;
 } */
 p{
-    color: rgb(214, 41, 41);
+    color: #ffffff;
     font-size: normal;
 }
 .container{
@@ -160,6 +161,7 @@ button:hover {
 
 .header{
     background: #f7786b;
+    padding-bottom: 150px;
 }
 .header .row{
     margin-top: 90px;
@@ -181,7 +183,8 @@ button:hover {
 }
 
 .col-4 img {
-	width: 100%;
+  width: 100%;
+  height: 200px;
 }
 .title {
 	text-align: center;
@@ -205,7 +208,9 @@ button:hover {
 
 h4 {
 	color: #d41d1d;
-	font-weight: normal;
+  font-weight: normal;
+  text-align: center;
+  font-size: large;
 }
 .col-4 p {
 	font-size: 14px;
@@ -220,16 +225,15 @@ h4 {
 /* --------offer---------------- */
 
 .offer {
-	background: radial-gradient(#7de1ff, #a2ff6c);
 	margin-top: 20px;
 	padding: 10px 0;
 }
 .col-2 .offer-img {
   padding: 30px;
-  width: 800px;
+  width: 500px;
 }
 small {
-	color: #ddb9b9;
+	color: #8400ff;
 }
 /*---------------about_us-----------------*/
 body {
@@ -275,7 +279,7 @@ html {
 }
 
 .title {
-  color: grey;
+  color: rgb(160, 127, 127);
 }
 
 .button {
@@ -304,13 +308,13 @@ html {
 
 input[type=text], select, textarea {
   width: 100%;
-  padding: 12px; 
+  padding: 12px;
   border: 1px solid #ccc;
-  border-radius: 4px; 
+  border-radius: 4px;
   box-sizing: border-box;
-  margin-top: 6px; 
-  margin-bottom: 16px; 
-  resize: vertical 
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
 }
 
 /* Style the submit button with a specific background color etc */
@@ -331,6 +335,6 @@ input[type=submit]:hover {
 /* Add a background color and some padding around the form */
 .container {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: #F7786B;
   padding: 20px;
 }
